@@ -1,0 +1,6 @@
+# Created at 2022-06-12T20:51:27.183
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Error occurred during initialization of VM'.
+
+# Created at 2022-06-12T20:51:27.200
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Unable to allocate 128576KB bitmaps for parallel garbage collection for the requested 4114432KB heap.'.
+

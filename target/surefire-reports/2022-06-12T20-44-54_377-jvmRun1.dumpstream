@@ -1,0 +1,6 @@
+# Created at 2022-06-12T20:44:57.121
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Error occurred during initialization of VM'.
+
+# Created at 2022-06-12T20:44:57.138
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'java/lang/ClassNotFoundException: error in opening JAR file C:\Program Files\Java\jdk1.8.0_331\jre\lib\rt.jar'.
+

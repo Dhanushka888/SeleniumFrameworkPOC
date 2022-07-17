@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test ValidateTitle(failed)">
+    <classes>
+      <class name="Academy.ValidateTitleTest">
+        <methods>
+          <include name="titleNavigation"/>
+          <include name="initialize"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Academy.ValidateTitleTest -->
+    </classes>
+  </test> <!-- Test ValidateTitle(failed) -->
+  <test thread-count="5" verbose="0" name="Test HomePage(failed)">
+    <classes>
+      <class name="Academy.HomePageTest">
+        <methods>
+          <include name="close"/>
+          <include name="initialize"/>
+          <include name="homePageNavigation" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Academy.HomePageTest -->
+    </classes>
+  </test> <!-- Test HomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
